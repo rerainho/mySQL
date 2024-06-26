@@ -40,7 +40,12 @@ SELECT nome FROM tb_funcionarios WHERE salario >= 2000.00;
 
 SELECT nome FROM tb_funcionarios WHERE salario <= 2000.00;
 
+UPDATE tb_funcionarios SET salario = 1900.00 WHERE id = 1;
+
 SELECT * FROM tb_funcionarios;
+
+
+
 
 
 
